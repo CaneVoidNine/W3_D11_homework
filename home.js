@@ -13,9 +13,24 @@ const changeAdress = function () {
 };
 const applyClassToLink = function () {
   for (let node of document.querySelectorAll("a")) {
-    node.classList.add("");
+    node.classList.add("big-font");
   }
-  for (let i = 0; i < document.querySelectorAll("a").length; i++) {
-    document.querySelectorAll("a").item(i).classList.add("");
+};
+
+const toggleInvisible = function () {
+  for (let image of document.querySelectorAll("img")) {
+    image.classList.toggle("hidden");
   }
+};
+const randomColor = function () {
+  const color = randomColorRgb();
+  for (let price of document.getElementsByClassName("pricing")) {
+    price.style.color = color;
+  }
+};
+const randomColorRgb = function () {
+  const red = Math.round(Math.random() * 255);
+  const blue = Math.round(Math.random() * 255);
+  const green = Math.round(Math.random() * 255);
+  return "rgb(" + red + ", " + green + ", " + blue + ")";
 };

@@ -34,9 +34,9 @@ footer {
   margin: 0;
 }
 .hidden {
-  display: none;
+  visibility: hidden;
 }
 
-.giant-font {
-  font-weight: 999;
+.big-font {
+  font-size: 2em;
 }
