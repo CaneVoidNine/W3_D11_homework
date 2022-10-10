@@ -1,0 +1,42 @@
+.phone-image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+h1 {
+  text-align: center;
+}
+#names {
+  text-align: center;
+}
+header {
+  background-color: brown;
+}
+table,
+th,
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 2px;
+}
+table {
+  margin: auto;
+}
+footer {
+  text-align: center;
+  background-color: brown;
+}
+#area {
+  margin: 10px;
+}
+.linkers {
+  margin: 0;
+}
+.hidden {
+  display: none;
+}
+
+.giant-font {
+  font-weight: 999;
+}
