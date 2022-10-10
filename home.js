@@ -13,9 +13,9 @@ const changeAdress = function () {
 };
 const applyClassToLink = function () {
   for (let node of document.querySelectorAll("a")) {
-    node.classList.add("giant-font");
+    node.classList.add("");
   }
   for (let i = 0; i < document.querySelectorAll("a").length; i++) {
-    document.querySelectorAll("a".item(i).classList.add(""));
+    document.querySelectorAll("a").item(i).classList.add("");
   }
 };
